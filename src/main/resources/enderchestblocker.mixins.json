@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "xyz.kamefrede.enderchestblocker.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "enderchestblocker.refmap.json",
+  "mixins": [
+    "MixinEnderChest",
+    "MixinEntity",
+    "MixinServerPlayerEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

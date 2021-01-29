@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[31,)"
+issueTrackerURL = "https://github.com/Kamefrede/EnderChestBlocker/issues"
+
+license = "MIT"
+[[mods]]
+modId = "enderchestblocker"
+version = "${file.jarVersion}"
+displayName = "Ender Chest Blocker"
+credits = "Commissioned by dani, delivered with love by Kamefrede"
+authors = "Kamefrede, dani"
+description = '''
+Block players from opening their ender chest in certain dimensions with one simple command!
+'''
+[[dependencies.enderchestblocker]]
+modId = "forge"
+mandatory = true
+versionRange = "[31,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.enderchestblocker]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.2,)"
+ordering = "NONE"
+side = "BOTH"

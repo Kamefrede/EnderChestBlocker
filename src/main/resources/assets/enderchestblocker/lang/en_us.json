@@ -1,0 +1,7 @@
+{
+  "enderchestblocker.empty_disallowed_list": "Disallowed dimension list is currently empty",
+  "enderchestblocker.dimension_not_present": "Cannot unblock the %s dimension as it is not currently blocked",
+  "enderchestblocker.added_dimension": "Blocked the opening of ender chests in the %s dimension",
+  "enderchestblocker.removed_dimension": "Players can now open ender chests in the %s dimension",
+  "enderchestblocker.disallow_dimensions_print": "Currently, opening ender chests is disallowed in the following dimensions: %s"
+}
